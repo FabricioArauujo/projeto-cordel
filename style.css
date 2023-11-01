@@ -15,6 +15,7 @@
 
 
 html, body{
+    width: 100%;
     min-height: 100vh;
     background-color: dark;
     font-family: var(--fonte1);
@@ -24,7 +25,8 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-
+    margin: auto;
+    width: 80%;
 }
 
 header h1{
@@ -47,6 +49,12 @@ header a, footer a{
 
 header a:hover, footer a:hover{
     text-decoration: underline;
+}
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 4vh;
 }
 section{
     padding-top: 10vh;
@@ -80,7 +88,7 @@ section p{
 }
 
 #img1{
-    background-image: url('img/background1.jpg');
+    background-image: url('img/pexels-eva-bronzini-6495306.jpg');
     background-position: right center;
 }
 #img2{
